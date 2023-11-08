@@ -1,8 +1,8 @@
 # pylint: disable=missing-module-docstring
 
 import requests
-from config import KEY_API
-from logger import logger
+from project.config import KEY_API
+from project.logger import logger
 
 class Scraper:  # pylint: disable=missing-class-docstring
 

@@ -3,8 +3,8 @@
 # database.py
 
 import psycopg2
-from config import *
-from logger import logger
+from project.config import *
+from project.logger import logger
 
 class Database:  # pylint: disable=missing-class-docstring
 

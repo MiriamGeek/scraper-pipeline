@@ -1,7 +1,7 @@
 # main.py
 
-from scraper import Scraper
-from database import Database
+from project.scraper import Scraper
+from project.database import Database
 
 
 def main():

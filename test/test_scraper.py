@@ -1,6 +1,6 @@
 # pylint: disable=missing-module-docstring
 
-from scraper import Scraper
+from project.scraper import Scraper
 import unittest
 
 
@@ -25,8 +25,3 @@ class TestScraper(unittest.TestCase): # pylint: disable=missing-class-docstring
         # check if the response is not empty
         data = scraper.parse_response(response)
         self.assertIsNotNone(data)
-
-
-
-if __name__ == '__main__':
-    unittest.main()
