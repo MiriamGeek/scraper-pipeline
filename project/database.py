@@ -12,7 +12,6 @@ class Database:  # pylint: disable=missing-class-docstring
         self.connection = None
 
     def connect(self):    # pylint: disable=missing-function-docstring
-        print(DB_NAME)
         try:
             self.connection = psycopg2.connect(
                 host=DB_HOST,
