@@ -27,4 +27,4 @@ RUN /venv/bin/pip install -r requirements.txt
 COPY . .
 
 # Set the default command to run the application
-CMD ["python", "project/main.py"]
+CMD ["python", "project/__main__.py"]
